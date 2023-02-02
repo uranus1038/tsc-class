@@ -1,15 +1,8 @@
 "use strict";
-class Person {
-    constructor(firstName, lastName) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-    }
-    getFullName() {
-        return this.firstName + " " + this.lastName;
-    }
-    getNumber(age) {
-        return this.age = age;
+Object.defineProperty(exports, "__esModule", { value: true });
+class addMenu {
+    constructor(name) {
+        console.log(name);
     }
 }
-const person = new Person("you", "Aum");
-console.log(person.getFullName()); // Output: "John Doe"
+exports.default = addMenu;
